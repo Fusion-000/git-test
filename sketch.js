@@ -23,6 +23,7 @@ function setup(){
 
 function draw() {
   var x;
+  text("a change",200,200)
   if (bullet.velocityX > 0) {
     background(255, 255, 255);
     text("bullet.x:" + bullet.x, 200, 150);
